@@ -2,6 +2,7 @@ package pe.edu.unmsm.upg.ecommerce.order.application.mapper;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 import java.util.stream.Collectors;
 
 import pe.edu.unmsm.upg.ecommerce.commands.CreateOrderCommand;
@@ -15,6 +16,11 @@ import pe.edu.unmsm.upg.ecommerce.order.domain.OrderStatus;
 public class OrderCreateDtoToOrderCreateCommandMap {
 
 	public CreateOrderCommand map(OrderCreateDTO orderCreateDTO) {
+		
+		if(orderCreateDTO.getId() == null) {
+			String orderId = UUID.randomUUID().toString();
+			orderCreateDTO.setId(orderId);
+		}
 
 		return new CreateOrderCommand(orderCreateDTO.getId(), orderCreateDTO.getDeviceId(), orderCreateDTO.getAmount(),
 				orderCreateDTO.getCreatedAt(), map(orderCreateDTO.getUser()), map(orderCreateDTO.getProducts()),
