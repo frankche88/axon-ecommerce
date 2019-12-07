@@ -1,0 +1,5 @@
+pe/edu/unmsm/upg/ecommerce/shipping/ShippingServiceApplication.class
+pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingViewRepository.class
+pe/edu/unmsm/upg/ecommerce/shipping/domain/ShippingAggregate.class
+pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingViewProjection.class
+pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingView.class

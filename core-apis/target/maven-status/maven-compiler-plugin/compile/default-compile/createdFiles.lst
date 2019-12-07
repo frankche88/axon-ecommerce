@@ -1,0 +1,10 @@
+pe/edu/unmsm/upg/ecommerce/commands/UpdateOrderStatusCommand.class
+pe/edu/unmsm/upg/ecommerce/events/OrderCreatedEvent.class
+pe/edu/unmsm/upg/ecommerce/events/InvoiceCreatedEvent.class
+pe/edu/unmsm/upg/ecommerce/model/User.class
+pe/edu/unmsm/upg/ecommerce/model/Product.class
+pe/edu/unmsm/upg/ecommerce/events/OrderShippedEvent.class
+pe/edu/unmsm/upg/ecommerce/commands/CreateOrderCommand.class
+pe/edu/unmsm/upg/ecommerce/commands/CreateInvoiceCommand.class
+pe/edu/unmsm/upg/ecommerce/commands/CreateShippingCommand.class
+pe/edu/unmsm/upg/ecommerce/events/OrderUpdatedEvent.class

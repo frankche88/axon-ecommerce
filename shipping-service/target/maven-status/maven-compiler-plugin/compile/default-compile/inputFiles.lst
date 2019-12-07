@@ -1,0 +1,5 @@
+/home/joaquin/Development/proyectos/axon-ecommerce/shipping-service/src/main/java/pe/edu/unmsm/upg/ecommerce/shipping/ShippingServiceApplication.java
+/home/joaquin/Development/proyectos/axon-ecommerce/shipping-service/src/main/java/pe/edu/unmsm/upg/ecommerce/shipping/domain/ShippingAggregate.java
+/home/joaquin/Development/proyectos/axon-ecommerce/shipping-service/src/main/java/pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingView.java
+/home/joaquin/Development/proyectos/axon-ecommerce/shipping-service/src/main/java/pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingViewRepository.java
+/home/joaquin/Development/proyectos/axon-ecommerce/shipping-service/src/main/java/pe/edu/unmsm/upg/ecommerce/shipping/query/ShippingViewProjection.java

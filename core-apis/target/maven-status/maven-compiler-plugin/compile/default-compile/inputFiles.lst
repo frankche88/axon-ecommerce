@@ -1,0 +1,10 @@
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/commands/CreateInvoiceCommand.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/events/OrderCreatedEvent.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/commands/CreateShippingCommand.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/model/Product.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/commands/UpdateOrderStatusCommand.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/model/User.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/events/OrderUpdatedEvent.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/events/InvoiceCreatedEvent.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/events/OrderShippedEvent.java
+/home/joaquin/Development/proyectos/axon-ecommerce/core-apis/src/main/java/pe/edu/unmsm/upg/ecommerce/commands/CreateOrderCommand.java

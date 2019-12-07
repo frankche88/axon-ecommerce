@@ -1,0 +1,39 @@
+
+export MYSQL_BANKING_AXON_URL=jdbc:mysql://localhost:3306/bank
+export MYSQL_BANKING_AXON_USER=root
+export MYSQL_BANKING_AXON_PASSWORD=r00t
+
+GRANT ALL PRIVILEGES ON bank.* TO 'root'@'localhost';
+
+GRANT ALL PRIVILEGES ON bank.* TO 'root'@'localhost' IDENTIFIED BY 'r00t' WITH GRANT OPTION;
+
+
+
+mvn clean package spring-boot:run -pl order-service --also-make -DskipTests
+
+mvn clean package spring-boot:run -pl payment-service --also-make -DskipTests
+
+mvn clean package spring-boot:run -pl shipping-service --also-make -DskipTests
+
+
+Verificamos que existan los servicios en axon
+http://localhost:8024/
+
+Iniciando swagger orders
+http://localhost:8080/swagger-ui.html
+
+
+
+c8XF58N89NI:APA91bEbUXVUImE4H3RGUbA5CYvuZLfVYYBGLRcK3KNoIPAbNqe_zdJY_Io3P2B8eJG_w95Wv38Hytn_RJQQ7RbnRHoucCxi8V5LfFysUxpPwQIOWxUvyC0BVRJhy6Ux-mAhydX1Sb6l
+
+{
+	"notification": {
+	"title": "Notification", 
+	"body": "You have a new notification"
+	},
+	"to" : "c8XF58N89NI:APA91bEbUXVUImE4H3RGUbA5CYvuZLfVYYBGLRcK3KNoIPAbNqe_zdJY_Io3P2B8eJG_w95Wv38Hytn_RJQQ7RbnRHoucCxi8V5LfFysUxpPwQIOWxUvyC0BVRJhy6Ux-mAhydX1Sb6l",
+	"data" : {
+	"body" : "Your order is ready",
+	"title": "Hey!!",
+	"click_action" : "FLUTTER_NOTIFICATION_CLICK"
+}
